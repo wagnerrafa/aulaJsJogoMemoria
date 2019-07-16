@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px double white;
+}
+h1{
+    color: white;
+}
+main{
+    width: 80vw;
+    height: calc(100vh - 110px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.carta{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
