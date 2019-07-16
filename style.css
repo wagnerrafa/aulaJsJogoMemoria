@@ -5,6 +5,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(imagensBody/body.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
 }
 header{
     height: 100px;
@@ -17,6 +20,7 @@ header{
 h1{
     color: white;
 }
+
 main{
     width: 80vw;
     height: calc(100vh - 110px);
@@ -34,4 +38,12 @@ main{
     width: 100px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carta:hover{
+    background-color: aquamarine;
 }
