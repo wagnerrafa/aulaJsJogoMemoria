@@ -67,7 +67,7 @@ function verificarIguais(){
     cartaDois.classList.add("correta");
     iniciarJogada();
     ij=ij+1;
-    if(ij==1){
+    if(ij==8){
     setTimeout(function(){
     parabens();
     }, 1000);
