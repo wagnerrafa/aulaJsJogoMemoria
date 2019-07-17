@@ -41,8 +41,17 @@ function parabens(){
 }
 function novoJogo(){
   window.parent.location.reload();
+  // tempo();
+}
+function desistir(){
+  for (carta of cartas){
+    abrir(carta);
+  }
 }
 
+// function tempo(){
+//   setTimeout(function() { console.log("setTimeout: Ja passou 1 segundo!"); }, 1000);
+// }
 function processarClique(event) {
   abrir(event.target);
   if (cartaUm) {
