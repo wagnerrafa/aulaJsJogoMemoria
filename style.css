@@ -9,6 +9,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;    
 }
+header nav{
+    position: absolute;
+    top: 65px;
+    right: 20px;
+}
 header{
     height: 90px;
     width: 100vw;
@@ -17,6 +22,7 @@ header{
     align-items: center;
     border-bottom: 10px double white;
 }
+
 h1{
     color: white;
 }
